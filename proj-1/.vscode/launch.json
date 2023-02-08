@@ -12,7 +12,7 @@
             "program": "${file}",
             "console": "integratedTerminal",
             "justMyCode": true,
-            "args": ["dataset-2.txt"]
+            "args": ["dataset-1.txt", "partition-1.txt", "partition-2.txt"]
         }
     ]
 }
