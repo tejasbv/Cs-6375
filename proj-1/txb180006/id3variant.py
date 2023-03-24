@@ -130,9 +130,10 @@ def updateSets(newSet, oldSet, attr_index):
             break
     
     for s in newSet:
-        maxId+=1
-        message+=f"{maxId},"
-        sets[maxId] = s
+        if len(s) != 0:
+            maxId+=1
+            message+=f"{maxId},"
+            sets[maxId] = s
     message = message[:-1]
     message+=f" using Attribute {attr_index}"
     print(message)

@@ -52,7 +52,7 @@ def out_name(in_name,p,seed) :
 
 f_x = "x_test.csv"
 f_y = "y_test.csv"
-p = .05
+p = .1
 seed = 1
 for i in range(10):
 
